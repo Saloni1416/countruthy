@@ -1,0 +1,8 @@
+//counts only the truthy values
+checkArray=[2,3,5,65,null,0,NaN,16,14]
+count=0;
+for (i of checkArray){
+    if (i)
+        count++;
+}
+console.log("count: ",count)
